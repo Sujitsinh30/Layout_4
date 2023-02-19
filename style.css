@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+nav
+{
+    height: 10rem;  
+}
+#headL
+{
+    background-color: #2c2f36; 
+    color: white;
+    height: 100%;
+    max-width: 20%;
+}
+.logo
+{
+    padding: 1% 2%;
+}
+.logo div:nth-child(1)
+{
+    background-color:#e41d70; 
+    width: 0.9rem;
+    height: 0.36rem; 
+}
+.logo div:nth-child(2)
+{
+    background-color:#e41d70;
+    height: 0.9rem;
+    width: 0.36rem;
+}
+#logo-textf
+{
+    font-weight: 900;
+    font-size: 2rem;
+}
+#logo-texts
+{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: -16% 20%; 
+}
+#logo-textt
+{
+    margin: 12% 0%;
+    font-size: 96%;
+}
+#headR
+{
+    height: 100%;
+    font-size: 84%;
+}
+.headR-content
+{
+    padding: 2% 2%;
+}
+.headR-content h5
+{
+    font-weight: 900;
+}
+@media screen and (max-width: 2500px) 
+{
+
+}
+@media screen and (max-width: 1200px) 
+{
+
+}
+@media screen and (max-width: 998px) 
+{
+
+}
+@media screen and (max-width: 768px)
+{
+
+}
+main section:nth-child(1)
+{
+    max-width:100% ;
+    height: 80vh;
+    background-color: black;
+}
+main section:nth-child(2)
+{
+    background-color: aliceblue;
+    height: 60vh;
+}
+.midl div.container
+{
+    
+}
+.bar
+{
+    background-color: #e41d70;
+    height: 10%;
+    width: 10%;
+}
