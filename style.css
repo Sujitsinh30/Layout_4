@@ -5,6 +5,7 @@ html, body {
 }
 *
 {
+    font-family: sans-serif;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -65,12 +66,12 @@ span
 }
 .headM-content h5
 {
-    font-size: x-large;
+    font-size: large;
     font-weight: 900;
 }
 .headM-content address
 {
-    font-size: large;
+    font-size: small;
 }
 #headR
 {
