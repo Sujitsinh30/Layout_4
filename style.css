@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('//db.onlinewebfonts.com/c/8cdbb48678e4418f22a2f507c2b975bd?family=Blanka');
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 *
 {
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
@@ -14,82 +19,129 @@ nav
     color: white;
     height: 100%;
 }
-.logo
+.logo   
 {
-    padding: 1% 2%;
-}
-.logo div:nth-child(1)
-{
-    background-color:#e41d70; 
-    width: 0.9rem;
-    height: 0.36rem; 
-}
-.logo div:nth-child(2)
-{
-    background-color:#e41d70;
-    height: 0.9rem;
-    width: 0.36rem;
-}
-#logo-textf
-{
-    font-weight: 900;
+    padding-left: 7rem;
+    width: 27rem;
+    position: relative;
     font-size: 2rem;
 }
-#logo-texts
+span
 {
+    font-size: larger;
+    position: relative;
+    color: #e41d70;
     font-weight: 900;
-    font-size: 2rem;
-    margin: -16% 20%; 
 }
-#logo-textt
+.logo h3
 {
-    margin: 12% 0%;
-    font-size: 96%;
+    font-size: larger;
+    width: 4rem;
+    font-family: blanka;
+    margin-top: -2.69rem;
+    margin-left: 1rem;
+}
+.logo h5
+{
+    margin-top: -5%;
+    padding-left: 5rem;
+    font-family: blanka;
+    font-size: larger;
+}
+.logo h6
+{
+    padding-left: 1em;
+    font-size: 1rem;
 }
 #headM
 {
-    max-width:40%;
     height: 100%;
     font-size: 84%;
 }
 .headM-content
 {
-    padding: 2% 2%;
+    padding-left: 10%;
+    padding-top: 2%;
 }
 .headM-content h5
 {
+    font-size: x-large;
     font-weight: 900;
+}
+.headM-content address
+{
+    font-size: large;
 }
 #headR
 {
-    max-width:40%;
+    height: 100%;
     background-color: #f8f8f8;
-}
-@media screen and (max-width: 2500px) 
-{
-
-}
-@media screen and (max-width: 1200px) 
-{
-
-}
-@media screen and (max-width: 998px) 
-{
-
-}
-@media screen and (max-width: 768px)
-{
-
 }
 main section:nth-child(1)
 {
-    max-width:100% ;
-    height: 72vh;
-    background-color: black;
+    position: relative;
+    width:100% ;
+    height: 90vh;
+    background: url('./assets/background-img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-main section:nth-child(2)
+#blue_sec
 {
-        height: 85vh;
+    height: 92vh;
+    background-color: #1378af9a;
+}
+
+.header_content {
+    margin-left: 10px;
+}
+
+.header .header_content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    margin: 5rem 5rem;
+}
+.header .header_content div {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    width: 10rem;
+}
+.header .cen_sec {
+    margin-top: 1rem;
+}
+.header .cen_sec h1 {
+    font-size: 9rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.356);
+}
+.header .cen_sec h3 {
+    position: absolute;
+    top: 5rem;
+    left: 0.4rem;
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+}
+.header .cen_sec h3 span {
+    padding: 0.5rem 0.5rem;
+    margin: 0px 18px;
+    font-size: 0.1rem;
+    background-color: #db0a61;
+}
+#seconde-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+#pink-sec {
+    background-color: #c93a76bd;
+    padding: 100px;
+    height: 100vh;
 }
 #middle
 {
@@ -107,34 +159,16 @@ main section:nth-child(2)
     padding: 1rem 0;
     max-width: 80%;
 }
-@media screen and (max-width: 2500px) 
-{
-
-}
-@media screen and (max-width: 1200px) 
-{
-
-}
-@media screen and (max-width: 998px) 
-{
-
-}
-@media screen and (max-width: 768px)
-{
-
-}
 #bottom
 {
-    padding: 3rem 3rem;
+    padding: 3rem 6rem;
 }
+
 .card-img-top
 {
     max-width:5rem;
 }
-#bottom
-{
-    padding: 3rem 6rem; 
-}
+
 #box1::before
 {
     content: '';
@@ -152,34 +186,139 @@ main section:nth-child(2)
     padding: 3rem 0.56px;
     background-color: gray;
 }
-span
+.card-text span
 {
     padding: 0 4%;
     background-color: #e41d70;
     font-size: xx-small;
     margin-left: 4%;
 }
-@media screen and (max-width: 2500px) 
+footer
 {
-
+    width: 206vh;
+    background-color: #2c2f36;
+    color: white;
+    position:relative;
 }
-@media screen and (max-width: 1200px) 
+@media screen and (max-width: 1600px)
 {
-
+    footer
+{
+    width: 227vh;
+    background-color: #2c2f36;
+    color: white;
+    position:relative;
 }
-@media screen and (max-width: 998px) 
+}
+@media screen and (max-width: 300px)
 {
-
+    footer
+    {
+        flex-wrap: wrap;
+        width: 56vh;
+        background-color: #2c2f36;
+        color: white;
+        position:relative;
+    } 
 }
 @media screen and (max-width: 768px)
 {
+.logo {
+        padding-left: 3rem;
+        width: 27rem;
+        position: relative;
+        font-size: 2rem;
+    }
 
-}
-footer
-{
-    padding: 0 0;
-    width: 198vh;
-    background-color: #2c2f36;
-    color: white;
-    position:absolute;
+    span {
+        font-size: larger;
+        position: relative;
+        color: #e41d70;
+        font-weight: 900;
+    }
+
+    .logo h3 {
+        font-size: larger;
+        width: 4rem;
+        font-family: blanka;
+        margin-top: -2.69rem;
+        margin-left: 1rem;
+    }
+
+    .logo h5 {
+        margin-top: -5%;
+        padding-left: 5rem;
+        font-family: blanka;
+        font-size: larger;
+    }
+
+    .logo h6 {
+        padding-left: 1em;
+        font-size: 1rem;
+    }
+
+    #headM {
+        height: 100%;
+        font-size: 84%;
+    }
+
+    .headM-content {
+        padding-left: 10%;
+        padding-top: 2%;
+    }
+
+    .headM-content h5 {
+        font-size: 110%;
+        font-weight: 900;
+    }
+
+    .headM-content address {
+        font-size: 110%;
+    }
+
+    #headR {
+        height: 100%;
+        background-color: #f8f8f8;
+    }
+    footer {
+        width: 135vh;
+        background-color: #2c2f36;
+        color: white;
+        position: relative;
+    }
+    #main-section-1 {
+        width: 100%;
+        height: 100vh;
+    }
+    #block-2 .block-add {
+        margin: 2rem 1.8rem;
+    }
+
+
+    .header {
+        margin: 1rem 1rem;
+    }
+
+    .header .cen_sec h1 {
+        font-size: 5rem;
+    }
+
+    .header .cen_sec h3 {
+        top: 2.6rem;
+        font-size: 2rem;
+    }
+    .header .cen_sec h3 span {
+        padding: 0.5rem 0.5rem;
+        margin: 0px 10px;
+        font-size: 0rem;
+        background-color: #db0a61;
+    }
+
+    #sec_block {
+        display: none;
+    }
+
+    #pink-sec {
+        display: none;
+    }
 }
