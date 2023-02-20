@@ -153,6 +153,13 @@ main section:nth-child(2)
     padding: 3rem 0.56px;
     background-color: gray;
 }
+span
+{
+    padding: 0 4%;
+    background-color: #e41d70;
+    font-size: xx-small;
+    margin-left: 4%;
+}
 @media screen and (max-width: 2500px) 
 {
 
@@ -171,21 +178,10 @@ main section:nth-child(2)
 }
 footer
 {
+    padding: 0 0;
+    width: 198vh;
     background-color: #2c2f36;
+    color: white;
+    position:absolute;
 }
-footer nav:nth-child(1)
-{
-    padding: 3.3rem 6rem;
-}
-footer nav:nth-child(2)
-{
-    padding: 3rem 6rem;
-}
-footer nav:nth-child(3)
-{
-    padding: 1rem 6rem;
-}
-footer nav:nth-child(4)
-{
-    padding: 3rem 6rem;
-}
+
