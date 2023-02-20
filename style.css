@@ -47,18 +47,24 @@ nav
     margin: 12% 0%;
     font-size: 96%;
 }
-#headR
+#headM
 {
+    max-width:40%;
     height: 100%;
     font-size: 84%;
 }
-.headR-content
+.headM-content
 {
     padding: 2% 2%;
 }
-.headR-content h5
+.headM-content h5
 {
     font-weight: 900;
+}
+#headR
+{
+    max-width:40%;
+    background-color: #f8f8f8;
 }
 @media screen and (max-width: 2500px) 
 {
@@ -79,21 +85,57 @@ nav
 main section:nth-child(1)
 {
     max-width:100% ;
-    height: 80vh;
+    height: 90vh;
     background-color: black;
 }
 main section:nth-child(2)
 {
-    background-color: aliceblue;
-    height: 60vh;
+        height: 85vh;
 }
-.midl div.container
+#middle
 {
-    
+    height: 25%;
+    background-color: #f8f8f8;
 }
-.bar
+#midl
 {
-    background-color: #e41d70;
-    height: 10%;
-    width: 10%;
+    padding: 2rem 2rem;
+    max-width: 20%;
+    padding-left: 10%;
+}
+#midr
+{
+    padding: 1rem 0;
+    max-width: 80%;
+}
+@media screen and (max-width: 2500px) 
+
+{
+
+
+
+}
+
+@media screen and (max-width: 1200px) 
+
+{
+
+
+
+}
+
+@media screen and (max-width: 998px) 
+
+{
+
+
+
+}
+
+@media screen and (max-width: 768px)
+
+{
+
+
+
 }
